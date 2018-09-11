@@ -1,10 +1,8 @@
 import Header from '../components/Header'
 
-const Index = () => (
+export default () => (
   <div>
     <Header />
-    <p>Hello</p>
+    <p>This is the about page</p>
   </div>
 )
-
-export default Index
