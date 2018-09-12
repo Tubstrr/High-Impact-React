@@ -2,15 +2,20 @@ import Header from './Header'
 import Footer from './Footer'
 
 const PageTemplateStyle = {
-  margin: 20,
-  padding: 20,
-  border: '1px solid #DDD'
+  "background":"#dedede"
+}
+const MainContainerStyles = {
+  "width":"100vw",
+  "height":"100vh",
+  background:"pink"
 }
 
 const PageTemplate = (props) => (
   <div style={PageTemplateStyle}>
     <Header />
-    {props.children}
+    <div style={MainContainerStyles}>
+      {props.children}
+    </div>
     <Footer />
   </div>
 )

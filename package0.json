@@ -1,21 +1,18 @@
 {
-  "name": "NextJsApp",
+  "name": "hello-next",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "dev": "next"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@zeit/next-css": "^0.2.0",
-    "next": "^6.1.2",
-    "react": "^16.5.0",
-    "react-dom": "^16.5.0"
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
   }
 }
