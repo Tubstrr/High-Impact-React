@@ -1,5 +1,6 @@
-import Link from 'next/link'
-// import logo from './imgs/logo.png'
+import Link from 'next/link';
+import myImg from '../static/myImg.png';
+
 
 const linkStyle = {
   marginRight: 15
@@ -16,7 +17,7 @@ const HeaderStyles = {
 const Header = () => (
     <div style={HeaderStyles}>
       <div>
-        <img src=".../static/logo.jpg" />
+        <img src={myImg} />
       </div>
       <div>
         <Link href="/">
